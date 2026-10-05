@@ -1,7 +1,7 @@
 import LimoeiroHome from "./components/LimoeiroHome";
 
 function App() {
-  return <LimoeiroHome />;
+  return <LimoeiroHome/>;
 }
 
 export default App;
