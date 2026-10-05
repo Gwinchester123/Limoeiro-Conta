@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/LimoeiroHome.css";
-import Header from "./Header";
+import "./Pagina-Inicial.css";
+import Header from "../../components/Header";
 
 const manifestations = [
   {

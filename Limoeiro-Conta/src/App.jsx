@@ -1,4 +1,4 @@
-import LimoeiroHome from "./components/LimoeiroHome";
+import LimoeiroHome from "./paginas/Pagina-Inicial/Pagina-Inicial";
 
 function App() {
   return <LimoeiroHome/>;
