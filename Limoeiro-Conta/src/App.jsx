@@ -1,7 +1,26 @@
-import Pagina_Inicial from "./paginas/Pagina_Inicial/Pagina_Inicial";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LimoeiroHome from "./components/LimoeiroHome";
+import BoiPaiDoCampoPage from "./components/BoiPaiDoCampoPage";
+import LouceirasPage from "./components/LouceirasPage";
+import FogosaPage from "./components/FogosaPage";
+import GalleryPage from "./components/GalleryPage";
+import AcervoPage from "./components/AcervoPage";
+import EventosPage from "./components/EventosPage";
 
 function App() {
-  return <Pagina_Inicial />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LimoeiroHome />} />
+        <Route path="/boi-pai-do-campo" element={<BoiPaiDoCampoPage />} />
+        <Route path="/louceiras" element={<LouceirasPage />} />
+        <Route path="/fogosa" element={<FogosaPage />} />
+        <Route path="/galeria" element={<GalleryPage />} />
+        <Route path="/acervo" element={<AcervoPage />} />
+        <Route path="/eventos" element={<EventosPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
