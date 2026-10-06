@@ -1,7 +1,7 @@
-import LimoeiroHome from "./paginas/Pagina-Inicial/Pagina-Inicial";
+import Pagina_Inicial from "./paginas/Pagina_Inicial/Pagina_Inicial";
 
 function App() {
-  return <LimoeiroHome/>;
+  return <Pagina_Inicial />;
 }
 
 export default App;

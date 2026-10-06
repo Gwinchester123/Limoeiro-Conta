@@ -1,3 +1,5 @@
+import Banner from "./Banner/Banner";
+
 const manifestations = [
   {
     title: "Boi Pai do Campo",
@@ -29,29 +31,7 @@ function Arrow() {
 export default function Main() {
   return (
     <main>
-      <section className="hero" id="inicio">
-        <div className="hero-overlay"></div>
-
-        <div className="hero-content">
-          <span className="eyebrow light">
-            LIMOEIRO DO NORTE · CEARÁ · BRASIL
-          </span>
-
-          <h1>
-            Limoeiro
-            <em>Conta</em>
-          </h1>
-
-          <p>
-            Um portal dedicado à preservação e divulgação das manifestações
-            culturais de Limoeiro do Norte — memórias vivas do povo cearense.
-          </p>
-
-          <a className="button button-primary" href="#manifestacoes">
-            Conheça as manifestações <Arrow />
-          </a>
-        </div>
-      </section>
+      <Banner />
 
       <section className="manifestations section" id="manifestacoes">
         <div className="section-heading">
