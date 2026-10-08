@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer/Footer";
 import boiPaiDoCampo from "../assets/boi_pai_do_campo.png";
 import fogosa from "../assets/fogosa.jpeg";
 import louceiras from "../assets/louceiras.jpeg";
@@ -72,8 +71,7 @@ export default function GalleryPage() {
         </div>
 
         <p className="gallery-intro">
-          Explore registros organizados por manifestação cultural. Selecione um filtro
-          para encontrar imagens e vídeos de cada tradição local.
+          Selecione um filtro para encontrar imagens e vídeos de cada tradição local.
         </p>
 
         <div className="gallery-toolbar">
@@ -98,15 +96,10 @@ export default function GalleryPage() {
             <article className="gallery-card" key={`${entry.category}-${entry.meta}`}>
               <div className="gallery-card-top">
                 <span className="gallery-card-tag">{entry.category}</span>
-                <span className="gallery-card-count">{entry.count}</span>
               </div>
 
               <div className="gallery-card-thumb">
                 <img src={entry.image} alt={entry.title} />
-                <div className="gallery-card-overlay">
-                  <span className="gallery-card-type">{entry.type}</span>
-                  <span className="gallery-card-meta">{entry.meta}</span>
-                </div>
               </div>
 
               <div className="gallery-card-body">
@@ -117,10 +110,6 @@ export default function GalleryPage() {
 
               <div className="gallery-card-footer">
                 <h3>{entry.title}</h3>
-                <div className="gallery-card-line">
-                  <span>{entry.category}</span>
-                  <span>Data / crédito</span>
-                </div>
               </div>
             </article>
           ))}
@@ -162,7 +151,6 @@ export default function GalleryPage() {
         </div>
       </main>
 
-      <Footer />
     </div>
   );
 }
