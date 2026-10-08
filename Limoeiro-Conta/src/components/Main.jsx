@@ -53,7 +53,7 @@ export default function Main() {
 
         <div className="cards">
           {manifestations.map((item) => (
-            <article className="card" key={item.title}>
+            <a className="card" href="#acervo" key={item.title}>
               <img src={item.image} alt={item.title} />
 
               <div className="card-body">
@@ -63,11 +63,11 @@ export default function Main() {
 
                 <p>{item.description}</p>
 
-                <a href="#acervo">
+                <span className="card-cta">
                   Conhecer manifestação <Arrow />
-                </a>
+                </span>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </section>
@@ -84,12 +84,6 @@ export default function Main() {
             O Limoeiro Conta é um portal dedicado à preservação e divulgação das
             manifestações tradicionais de Limoeiro do Norte, município
             localizado na região do Baixo Jaguaribe, no Ceará.
-          </p>
-
-          <p>
-            O projeto nasce do reconhecimento de que a cultura popular é
-            patrimônio vivo, construída por gerações e registrada ao garantir
-            que ela continue existindo.
           </p>
 
           <p>
