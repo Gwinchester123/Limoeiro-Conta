@@ -6,6 +6,7 @@ import FogosaPage from "./components/FogosaPage";
 import GalleryPage from "./components/GalleryPage";
 import AcervoPage from "./components/AcervoPage";
 import EventosPage from "./components/EventosPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/acervo" element={<AcervoPage />} />
         <Route path="/eventos" element={<EventosPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

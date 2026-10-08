@@ -33,12 +33,6 @@ export default function BoiPaiDoCampoPage() {
             <h1>Boi Pai do Campo</h1>
           </div>
 
-          <div className="manifestation-intro">
-            <p>
-              Uma expressão cultural que preserva memórias, personagens e histórias do
-              território cearense, mantendo viva a identidade popular local.
-            </p>
-          </div>
         </section>
 
         <div className="manifestation-image-box">
@@ -66,36 +60,6 @@ export default function BoiPaiDoCampoPage() {
               fortalecer a identidade da comunidade.
             </p>
           </aside>
-        </section>
-
-        <section className="manifestation-section">
-          <h2>Características e importância</h2>
-
-          <div className="manifestation-card-grid">
-            <article className="manifestation-card">
-              <span>Tradição compartilhada</span>
-              <p>
-                Envolve saberes, memória e práticas culturalmente transmitidas entre as
-                pessoas do território.
-              </p>
-            </article>
-
-            <article className="manifestation-card">
-              <span>Expressão coletiva</span>
-              <p>
-                Constrói vínculos entre comunidade, território e identidade cultural,
-                fortalecendo a apropriação coletiva da tradição.
-              </p>
-            </article>
-
-            <article className="manifestation-card">
-              <span>Memória entre gerações</span>
-              <p>
-                Mantém viva a experiência dos mais antigos e inspira novas formas de
-                reconhecimento cultural.
-              </p>
-            </article>
-          </div>
         </section>
 
         <section className="manifestation-section">
@@ -138,34 +102,6 @@ export default function BoiPaiDoCampoPage() {
         </div>
       </main>
 
-      <footer className="manifestation-footer">
-        <div className="manifestation-footer-brand">
-          <strong>Limoeiro Conta</strong>
-          <p>
-            Cultura e memória de Limoeiro do Norte reunidas em um portal feito para
-            conhecer, preservar e compartilhar.
-          </p>
-        </div>
-
-        <div>
-          <span className="footer-title">Atalhos</span>
-          <p>Manifestações · Galeria · Acervo · Sobre</p>
-        </div>
-
-        <div>
-          <span className="footer-title">Contato e redes sociais</span>
-          <p>
-            [E-mail do projeto]
-            <br />
-            [Instagram] · [YouTube] · [Facebook]
-          </p>
-        </div>
-
-        <div className="manifestation-footer-bottom">
-          <span>© Limoeiro Conta · projeto de portal cultural</span>
-          <span>Limoeiro do Norte · Ceará</span>
-        </div>
-      </footer>
     </div>
   );
 }
