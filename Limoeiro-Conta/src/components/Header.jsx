@@ -35,6 +35,7 @@ export default function Header() {
         <a href="/#manifestacoes" onClick={closeMenu}>Manifestações</a>
         <Link to="/galeria" onClick={closeMenu}>Galeria</Link>
         <Link to="/acervo" onClick={closeMenu}>Acervo</Link>
+        <Link to="/eventos" onClick={closeMenu}>Eventos</Link>
         <a href="/#sobre" onClick={closeMenu}>Sobre</a>
       </nav>
     </header>

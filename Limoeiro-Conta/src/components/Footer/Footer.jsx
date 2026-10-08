@@ -13,10 +13,18 @@ export default function Footer() {
       </div>
 
       <div>
-        <span className="footer-title">CONTATOS</span>
+        <span className="footer-title">ATALHOS</span>
 
-        <p className="footer-contact">
-          [E-mail de contato]
+        <p>Manifestações · Galeria · Acervo · Sobre</p>
+      </div>
+
+      <div>
+        <span className="footer-title">CONTATO E REDES SOCIAIS</span>
+
+        <p>
+          [E-mail do projeto]
+          <br />
+          [Instagram] · [YouTube] · [Facebook]
         </p>
       </div>
 

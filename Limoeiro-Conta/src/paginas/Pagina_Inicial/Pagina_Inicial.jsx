@@ -1,5 +1,6 @@
 import "./Pagina_Inicial.css";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import Main from "../../components/Main";
 
 export default function Pagina_Inicial() {
@@ -8,6 +9,8 @@ export default function Pagina_Inicial() {
       <Header />
 
       <Main />
+
+      <Footer />
     </div>
   );
 }
