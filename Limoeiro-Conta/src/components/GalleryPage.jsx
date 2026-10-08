@@ -103,6 +103,10 @@ export default function GalleryPage() {
 
               <div className="gallery-card-thumb">
                 <img src={entry.image} alt={entry.title} />
+                <div className="gallery-card-overlay">
+                  <span className="gallery-card-type">{entry.type}</span>
+                  <span className="gallery-card-meta">{entry.meta}</span>
+                </div>
               </div>
 
               <div className="gallery-card-body">
@@ -113,6 +117,10 @@ export default function GalleryPage() {
 
               <div className="gallery-card-footer">
                 <h3>{entry.title}</h3>
+                <div className="gallery-card-line">
+                  <span>{entry.category}</span>
+                  <span>Data / crédito</span>
+                </div>
               </div>
             </article>
           ))}
