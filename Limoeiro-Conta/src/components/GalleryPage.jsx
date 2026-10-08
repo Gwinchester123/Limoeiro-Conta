@@ -10,30 +10,29 @@ import "../styles/LimoeiroHome.css";
 const filters = ["Todos", "Boi Pai do Campo", "Louceiras", "Fogosa"];
 
 const galleryEntries = [
-  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 01", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 02", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 03", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 04", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 05", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 06", image: boiPaiDoCampo, count: "8 registros", link: "/boi-pai-do-campo" },
-  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 01", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 02", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Louceiras", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 03", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 05", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Louceiras", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 06", image: louceiras, count: "8 registros", link: "/louceiras" },
-  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 01", image: fogosa, count: "8 registros", link: "/fogosa" },
-  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 02", image: fogosa, count: "8 registros", link: "/fogosa" },
-  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 03", image: fogosa, count: "8 registros", link: "/fogosa" },
-  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: fogosa, count: "8 registros", link: "/fogosa" },
-  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 05", image: fogosa, count: "8 registros", link: "/fogosa" },
-  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 06", image: fogosa, count: "8 registros", link: "/fogosa" },
+  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: fogosa, link: "/fogosa" },
+  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 02", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 05", image: louceiras, link: "/louceiras" },
+  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 01", image: fogosa, link: "/fogosa" },
+  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 05", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Louceiras", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 03", image: louceiras, link: "/louceiras" },
+  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 06", image: fogosa, link: "/fogosa" },
+  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 01", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 03", image: fogosa, link: "/fogosa" },
+  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 01", image: louceiras, link: "/louceiras" },
+  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 06", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 02", image: fogosa, link: "/fogosa" },
+  { category: "Louceiras", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 06", image: louceiras, link: "/louceiras" },
+  { category: "Boi Pai do Campo", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 04", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Fogosa", title: "Registro audiovisual da manifestação", type: "Vídeo", meta: "Registro 05", image: fogosa, link: "/fogosa" },
+  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 02", image: louceiras, link: "/louceiras" },
+  { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 03", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
+  { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: louceiras, link: "/louceiras" },
 ];
 
 export default function GalleryPage() {
   const [activeFilter, setActiveFilter] = useState("Todos");
   const [currentPage, setCurrentPage] = useState(1);
-  const totalRecords = 24;
   const itemsPerPage = 6;
 
   const filteredEntries =
@@ -65,15 +64,10 @@ export default function GalleryPage() {
             <h1>Imagens e vídeos da cultura local</h1>
           </div>
 
-          <div className="gallery-total">
-            <span className="gallery-total-value">{totalRecords}</span>
-            <span className="gallery-total-label">registros cadastrados</span>
-          </div>
         </div>
 
         <p className="gallery-intro">
-          Explore registros organizados por manifestação cultural. Selecione um filtro
-          para encontrar imagens e vídeos de cada tradição local.
+          Selecione um filtro para encontrar imagens e vídeos de cada tradição local.
         </p>
 
         <div className="gallery-toolbar">
@@ -102,10 +96,14 @@ export default function GalleryPage() {
               </div>
 
               <div className="gallery-card-thumb">
-                <img src={entry.image} alt={entry.title} />
-                <div className="gallery-card-overlay">
-                  <span className="gallery-card-type">{entry.type}</span>
-                  <span className="gallery-card-meta">{entry.meta}</span>
+                <Link className="gallery-card-image-link" to={entry.link}>
+                  <img src={entry.image} alt={entry.title} />
+                </Link>
+              </div>
+
+              <div className="gallery-card-footer">
+                <h3>{entry.title}</h3>
+                <div className="gallery-card-line">
                 </div>
               </div>
 
@@ -113,14 +111,6 @@ export default function GalleryPage() {
                 <Link className="gallery-card-link" to={entry.link}>
                   Abrir / ampliar
                 </Link>
-              </div>
-
-              <div className="gallery-card-footer">
-                <h3>{entry.title}</h3>
-                <div className="gallery-card-line">
-                  <span>{entry.category}</span>
-                  <span>Data / crédito</span>
-                </div>
               </div>
             </article>
           ))}
@@ -160,6 +150,7 @@ export default function GalleryPage() {
             Próxima →
           </button>
         </div>
+
       </main>
 
       <Footer />

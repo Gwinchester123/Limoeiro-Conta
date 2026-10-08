@@ -32,13 +32,6 @@ export default function BoiPaiDoCampoPage() {
             <span className="manifestation-kicker">Manifestações culturais</span>
             <h1>Boi Pai do Campo</h1>
           </div>
-
-          <div className="manifestation-intro">
-            <p>
-              Uma expressão cultural que preserva memórias, personagens e histórias do
-              território cearense, mantendo viva a identidade popular local.
-            </p>
-          </div>
         </section>
 
         <div className="manifestation-image-box">
@@ -66,36 +59,6 @@ export default function BoiPaiDoCampoPage() {
               fortalecer a identidade da comunidade.
             </p>
           </aside>
-        </section>
-
-        <section className="manifestation-section">
-          <h2>Características e importância</h2>
-
-          <div className="manifestation-card-grid">
-            <article className="manifestation-card">
-              <span>Tradição compartilhada</span>
-              <p>
-                Envolve saberes, memória e práticas culturalmente transmitidas entre as
-                pessoas do território.
-              </p>
-            </article>
-
-            <article className="manifestation-card">
-              <span>Expressão coletiva</span>
-              <p>
-                Constrói vínculos entre comunidade, território e identidade cultural,
-                fortalecendo a apropriação coletiva da tradição.
-              </p>
-            </article>
-
-            <article className="manifestation-card">
-              <span>Memória entre gerações</span>
-              <p>
-                Mantém viva a experiência dos mais antigos e inspira novas formas de
-                reconhecimento cultural.
-              </p>
-            </article>
-          </div>
         </section>
 
         <section className="manifestation-section">

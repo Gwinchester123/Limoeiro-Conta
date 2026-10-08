@@ -5,7 +5,6 @@ import LouceirasPage from "./components/LouceirasPage";
 import FogosaPage from "./components/FogosaPage";
 import GalleryPage from "./components/GalleryPage";
 import AcervoPage from "./components/AcervoPage";
-import EventosPage from "./components/EventosPage";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/fogosa" element={<FogosaPage />} />
         <Route path="/galeria" element={<GalleryPage />} />
         <Route path="/acervo" element={<AcervoPage />} />
-        <Route path="/eventos" element={<EventosPage />} />
       </Routes>
     </BrowserRouter>
   );
