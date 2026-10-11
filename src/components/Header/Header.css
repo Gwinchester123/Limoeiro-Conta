@@ -1,0 +1,97 @@
+.topbar {
+  min-height: 72px;
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #21150d;
+  color: #fff7e9;
+  border-bottom: 1px solid rgba(199, 123, 42, 0.6);
+}
+
+.brand {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.topbar nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.topbar nav a {
+  font-size: 13px;
+  color: #d9cdbc;
+  transition: color 0.2s ease;
+}
+
+.topbar nav a:hover {
+  color: #e39a4c;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: #fff7e9;
+}
+
+@media (max-width: 800px) {
+  .topbar {
+    position: relative;
+    padding: 0 20px;
+    min-height: 64px;
+  }
+
+  .topbar nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 18px 20px 20px;
+    background: #21150d;
+    border-top: 1px solid rgba(199, 123, 42, 0.5);
+    z-index: 20;
+  }
+
+  .topbar nav.nav-open {
+    display: flex;
+  }
+
+  .topbar nav a {
+    font-size: 12px;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+@media (max-width: 520px) {
+  .topbar {
+    height: auto;
+    min-height: 60px;
+  }
+}
