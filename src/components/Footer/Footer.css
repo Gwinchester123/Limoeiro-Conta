@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   gap: 45px;
   padding: 30px 6% 45px;
   background: var(--brown-dark);

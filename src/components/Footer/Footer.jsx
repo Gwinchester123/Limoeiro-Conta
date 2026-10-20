@@ -13,12 +13,6 @@ export default function Footer() {
       </div>
 
       <div>
-        <span className="footer-title">ATALHOS</span>
-
-        <p>Manifestações · Galeria · Acervo · Sobre</p>
-      </div>
-
-      <div>
         <span className="footer-title">CONTATO E REDES SOCIAIS</span>
 
         <p>
