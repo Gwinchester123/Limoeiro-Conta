@@ -16,8 +16,7 @@ export default function Banner() {
         </h1>
 
         <p className="hero-subtitle">
-          Um portal dedicado à preservação e divulgação das manifestações
-          culturais de Limoeiro do Norte - memória viva do povo cearense.
+          Materiais e Imateriais de Limoeiro do Norte.
         </p>
 
         <a className="button button-primary" href="#manifestacoes">

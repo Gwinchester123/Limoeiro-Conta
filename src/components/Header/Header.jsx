@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="topbar">
       <Link className="brand" to="/" onClick={closeMenu}>
-        O Patrimônio
+        <img src="/patrimonio-logo.png" alt="O Patrimônio" />
       </Link>
 
       <button
