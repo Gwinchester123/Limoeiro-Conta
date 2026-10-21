@@ -45,8 +45,7 @@ export default function Main() {
             <h2>Histórias que vivem no território</h2>
 
             <p>
-              Conheça expressões culturais prioritárias reunidas pelo Limoeiro
-              Conta.
+              Conheça expressões culturais prioritárias reunidas pelo projeto.
             </p>
           </div>
 
@@ -81,11 +80,11 @@ export default function Main() {
           <span className="eyebrow">O PROJETO</span>
 
           <h2>
-            Sobre o <em>Limoeiro Conta</em>
+            Sobre <em>O Patrimônio</em>
           </h2>
 
           <p>
-            O Limoeiro Conta é um portal dedicado à preservação e divulgação das
+            O Patrimônio é um portal dedicado à preservação e divulgação das
             manifestações tradicionais de Limoeiro do Norte, município
             localizado na região do Baixo Jaguaribe, no Ceará.
           </p>

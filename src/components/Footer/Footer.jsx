@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer" id="acervo">
       <div>
-        <strong>Limoeiro Conta</strong>
+        <strong>O Patrimônio</strong>
 
         <p>
           Cultura e memória de Limoeiro do Norte reunidas em um portal feito
@@ -13,17 +13,15 @@ export default function Footer() {
       </div>
 
       <div>
-        <span className="footer-title">CONTATO E REDES SOCIAIS</span>
+        <span className="footer-title">CONTATO</span>
 
         <p>
           [E-mail do projeto]
-          <br />
-          [Instagram] · [YouTube] · [Facebook]
         </p>
       </div>
 
       <div className="footer-bottom">
-        <span>© Limoeiro Conta · projeto de portal cultural</span>
+        <span>© O Patrimônio · projeto de portal cultural</span>
 
         <span>Limoeiro do Norte · Ceará</span>
       </div>

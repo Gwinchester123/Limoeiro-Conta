@@ -153,9 +153,9 @@ a {
 }
 
 .hero h1 em {
-  display: block;
-  color: #d88635;
-  font-size: .82em;
+  display: inline;
+  color: white;
+  font-size: inherit;
   font-weight: 500;
 }
 

@@ -11,9 +11,13 @@ export default function Banner() {
         </span>
 
         <h1>
-          Limoeiro
-          <em>Conta</em>
+          O{" "}
+          <em>Patrimônio</em>
         </h1>
+
+        <p className="hero-subtitle">
+          Material e Imaterial de Limoeiro do Norte
+        </p>
 
         <a className="button button-primary" href="#manifestacoes">
           Conheça as manifestações <span aria-hidden="true">→</span>

@@ -104,7 +104,7 @@ export default function BoiPaiDoCampoPage() {
 
       <footer className="manifestation-footer">
         <div className="manifestation-footer-brand">
-          <strong>Limoeiro Conta</strong>
+          <strong>O Patrimônio</strong>
           <p>
             Cultura e memória de Limoeiro do Norte reunidas em um portal feito para
             conhecer, preservar e compartilhar.
@@ -117,16 +117,12 @@ export default function BoiPaiDoCampoPage() {
         </div>
 
         <div>
-          <span className="footer-title">Contato e redes sociais</span>
-          <p>
-            [E-mail do projeto]
-            <br />
-            [Instagram] · [YouTube] · [Facebook]
-          </p>
+          <span className="footer-title">Contato</span>
+          <p>[E-mail do projeto]</p>
         </div>
 
         <div className="manifestation-footer-bottom">
-          <span>© Limoeiro Conta · projeto de portal cultural</span>
+          <span>© O Patrimônio · projeto de portal cultural</span>
           <span>Limoeiro do Norte · Ceará</span>
         </div>
       </footer>

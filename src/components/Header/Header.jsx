@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="topbar">
       <Link className="brand" to="/" onClick={closeMenu}>
-        Limoeiro Conta
+        O Patrimônio
       </Link>
 
       <button
