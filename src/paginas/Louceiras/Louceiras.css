@@ -1,80 +1,386 @@
-.event-page {
-  min-height: 100vh;
-  padding: 48px 6% 64px;
+.louceiras-page {
   background: var(--cream-light);
   color: var(--text);
+  text-align: left;
 }
 
-.event-page-inner {
-  max-width: 960px;
+.louceiras-shell {
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 28px;
-  border: 1px solid #e0d3bc;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.46);
-  box-shadow: 0 8px 24px rgba(39, 28, 18, 0.06);
+  padding: 18px 6% 52px;
+  border: 1px solid rgba(59, 40, 25, 0.25);
+  border-top: 0;
+  background: rgba(255, 255, 255, 0.12);
 }
 
-.event-page img {
+.louceiras-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.louceiras-breadcrumb a:hover,
+.louceiras-gallery-link:hover {
+  color: var(--orange-dark);
+}
+
+.louceiras-intro {
+  display: grid;
+  grid-template-columns: 1.4fr 0.9fr;
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 18px;
+}
+
+.louceiras-kicker {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--orange-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.louceiras-intro h1 {
+  margin: 0;
+  color: var(--brown);
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(48px, 6vw, 82px);
+  line-height: 0.88;
+}
+
+.louceiras-intro > p {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.louceiras-hero {
+  position: relative;
+  display: grid;
+  min-height: 0;
+  max-height: 440px;
+  margin: 0 0 26px;
+  overflow: hidden;
+  place-items: center;
+  background: #ddd3c3;
+}
+
+.louceiras-hero > img {
   display: block;
   width: 100%;
-  max-height: 420px;
-  margin-bottom: 22px;
-  border-radius: 10px;
+  max-height: 440px;
   object-fit: cover;
 }
 
-.event-page h1 {
+.louceiras-hero figcaption {
+  position: absolute;
+  right: 14px;
+  bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: rgba(250, 243, 225, 0.88);
+  color: var(--brown);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.louceiras-image-icon {
+  display: grid;
+  width: 30px;
+  height: 26px;
+  margin-bottom: 4px;
+  border: 1px solid rgba(59, 40, 25, 0.32);
+  border-radius: 2px;
+  color: rgba(59, 40, 25, 0.6);
+  font-size: 17px;
+  place-items: center;
+}
+
+.louceiras-history {
+  display: grid;
+  grid-template-columns: 1.45fr 0.75fr;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.louceiras-copy h2,
+.louceiras-section-heading h2 {
   margin: 0 0 12px;
   color: var(--brown);
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(40px, 5vw, 62px);
+  font-size: clamp(30px, 3vw, 42px);
   line-height: 1;
 }
 
-.event-page p {
-  margin: 0 0 16px;
+.louceiras-copy > p {
+  max-width: 720px;
+  margin: 0;
   color: var(--text);
-  font-size: 1.02rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
-.event-page .event-meta {
-  display: inline-block;
-  margin-bottom: 18px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(199, 123, 42, 0.12);
+.louceiras-highlight {
+  padding: 18px 18px 14px;
+  border: 1px solid #e6d9c3;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.louceiras-highlight > span {
+  display: block;
+  margin-bottom: 8px;
   color: var(--orange-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.louceiras-highlight > p {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.louceiras-highlight > a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid rgba(59, 40, 25, 0.22);
+  border-radius: 6px;
+  color: var(--brown);
   font-size: 12px;
+  font-weight: 600;
+}
+
+.louceiras-section {
+  margin-top: 26px;
+}
+
+.louceiras-section-heading {
+  margin-bottom: 12px;
+}
+
+.louceiras-section-heading .louceiras-kicker {
+  margin-bottom: 6px;
+}
+
+.louceiras-section-heading h2 {
+  margin-bottom: 12px;
+}
+
+.louceiras-section-heading > p {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.louceiras-characteristics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.louceiras-characteristic {
+  min-height: 0;
+  padding: 18px 16px;
+  border: 1px solid #e6d9c3;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.louceiras-characteristic > span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--orange-dark);
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
 
-.event-page .button {
-  margin-top: 12px;
+.louceiras-characteristic h3,
+.louceiras-person h3 {
+  margin: 0 0 8px;
+  color: var(--brown);
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.louceiras-characteristic p,
+.louceiras-person p {
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.louceiras-people-heading,
+.louceiras-records-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.louceiras-note {
+  padding-bottom: 4px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.louceiras-people {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.louceiras-person {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 14px 18px;
+  border: 1px solid #e6d9c3;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 6px 18px rgba(46, 31, 19, 0.04);
+}
+
+.louceiras-person-avatar {
+  display: block;
+  width: 100%;
+  height: 170px;
+  border: 1px solid rgba(59, 40, 25, 0.06);
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(199, 123, 42, 0.3), rgba(59, 40, 25, 0.16));
+}
+
+.louceiras-person h3 {
+  margin-bottom: 0;
+}
+
+.louceiras-person p {
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.louceiras-records-section {
+  padding-bottom: 3px;
+}
+
+.louceiras-gallery-link {
+  flex-shrink: 0;
+  margin-bottom: 4px;
+  color: var(--orange-dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.louceiras-gallery-link span {
+  margin-left: 4px;
+}
+
+.louceiras-records {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.louceiras-record {
+  display: block;
+  padding: 18px 16px;
+  border: 1px solid #e6d9c3;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.louceiras-record > span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--orange-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.louceiras-record h3 {
+  margin: 0;
+  color: var(--brown);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.louceiras-page > .footer {
+  text-align: left;
 }
 
 @media (max-width: 800px) {
-  .event-page {
-    padding: 26px 20px 42px;
+  .louceiras-shell {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
-  .event-page-inner {
-    padding: 20px 18px 22px;
+  .louceiras-intro,
+  .louceiras-history {
+    grid-template-columns: 1fr;
   }
 
-  .event-page img {
-    max-height: 260px;
-    margin-bottom: 18px;
+  .louceiras-intro {
+    gap: 12px;
   }
 
-  .event-page h1 {
-    font-size: 42px;
+  .louceiras-characteristics,
+  .louceiras-people,
+  .louceiras-records {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .louceiras-breadcrumb {
+    font-size: 9px;
   }
 
-  .event-page p {
-    font-size: 0.96rem;
+  .louceiras-people-heading,
+  .louceiras-records-heading {
+    align-items: flex-start;
+    flex-direction: column;
   }
+
+  .louceiras-characteristics,
+  .louceiras-people,
+  .louceiras-records {
+    grid-template-columns: 1fr;
+  }
+
+  .louceiras-person-avatar {
+    height: 150px;
+  }
+
 }

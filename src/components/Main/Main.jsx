@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import boiPaiDoCampo from "../../assets/boi_pai_do_campo.png";
 import fogosa from "../../assets/fogosa.jpeg";
 import louceiras from "../../assets/louceiras.jpeg";
+import patrimonioMaterial from "../../assets/header_1280x560.png";
 
 const manifestations = [
   {
@@ -25,6 +26,13 @@ const manifestations = [
     link: "/fogosa",
     description:
       "Relatos, imagens e registros reunidos para preservar sua memória.",
+  },
+  {
+    title: "Patrimônio Material",
+    image: patrimonioMaterial,
+    link: "/patrimonio-material",
+    description:
+      "Lugares, construções e referências materiais que compõem a memória do território.",
   },
 ];
 

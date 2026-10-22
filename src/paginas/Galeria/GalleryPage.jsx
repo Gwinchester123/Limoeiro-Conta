@@ -6,8 +6,9 @@ import "./Galeria.css";
 import boiPaiDoCampo from "../../assets/boi_pai_do_campo.png";
 import fogosa from "../../assets/fogosa.jpeg";
 import louceiras from "../../assets/louceiras.jpeg";
+import patrimonioMaterial from "../../assets/header_1280x560.png";
 
-const filters = ["Todos", "Boi Pai do Campo", "Louceiras", "Fogosa"];
+const filters = ["Todos", "Boi Pai do Campo", "Louceiras", "Fogosa", "Patrimônio Material"];
 
 const galleryEntries = [
   { category: "Fogosa", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: fogosa, link: "/fogosa" },
@@ -28,6 +29,9 @@ const galleryEntries = [
   { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 02", image: louceiras, link: "/louceiras" },
   { category: "Boi Pai do Campo", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 03", image: boiPaiDoCampo, link: "/boi-pai-do-campo" },
   { category: "Louceiras", title: "Registro fotográfico da manifestação", type: "Fotografia", meta: "Registro 04", image: louceiras, link: "/louceiras" },
+  { category: "Patrimônio Material", title: "Registro fotográfico do patrimônio", type: "Fotografia", meta: "Registro 01", image: patrimonioMaterial, link: "/patrimonio-material" },
+  { category: "Patrimônio Material", title: "Registro audiovisual do patrimônio", type: "Vídeo", meta: "Registro 02", image: patrimonioMaterial, link: "/patrimonio-material" },
+  { category: "Patrimônio Material", title: "Documento relacionado ao patrimônio", type: "Documento", meta: "Registro 03", image: patrimonioMaterial, link: "/patrimonio-material" },
 ];
 
 export default function GalleryPage() {
