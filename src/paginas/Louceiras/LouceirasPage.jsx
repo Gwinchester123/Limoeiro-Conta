@@ -26,9 +26,8 @@ const characteristics = [
 ];
 
 const people = [
-  { title: "Personagem / grupo", description: "Perfil em preparação" },
-  { title: "Mestra ou mestre", description: "Em preparação" },
-  { title: "Voz da comunidade", description: "Perfil em preparação" },
+  { title: "Família Braúna", description: "Louceiras" },
+  { title: "Família Pequeno", description: "Louceiras" },
 ];
 
 const records = [
