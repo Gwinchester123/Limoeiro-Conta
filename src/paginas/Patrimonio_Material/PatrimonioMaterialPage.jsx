@@ -39,7 +39,7 @@ const records = [
 
 export default function PatrimonioMaterialPage() {
   return (
-    <div className="louceiras-page">
+    <div className="louceiras-page patrimonio-material-page">
       <Header />
 
       <main className="louceiras-shell">
@@ -67,7 +67,7 @@ export default function PatrimonioMaterialPage() {
 
         <section className="louceiras-history">
           <div className="louceiras-copy">
-            <span className="louceiras-kicker">Contexto</span>
+            <span className="louceiras-kicker">História</span>
             <h2>História e referências</h2>
             <p>
               O Patrimônio Material reúne bens, lugares e construções que ajudam a
@@ -89,7 +89,7 @@ export default function PatrimonioMaterialPage() {
 
         <section className="louceiras-section">
           <div className="louceiras-section-heading">
-            <span className="louceiras-kicker">Leitura cultural</span>
+            <span className="louceiras-kicker">Importância cultural</span>
             <h2>Características e importância</h2>
             <p>
               Diferentes referências materiais podem ser registradas, pesquisadas e
@@ -111,9 +111,9 @@ export default function PatrimonioMaterialPage() {
         <section className="louceiras-section">
           <div className="louceiras-section-heading louceiras-people-heading">
             <div>
-              <span className="louceiras-kicker">Pessoas e memórias</span>
+              <span className="louceiras-kicker">Memória e comunidade</span>
               <h2>Personagens relacionados</h2>
-              <p>Perfis e vozes que ajudam a contar esta manifestação.</p>
+              <p>Perfis e vozes que ajudam a contar a história do patrimônio local.</p>
             </div>
             <span className="louceiras-note">Nomes serão incluídos após validação.</span>
           </div>
@@ -154,6 +154,9 @@ export default function PatrimonioMaterialPage() {
                 key={record.title}
                 aria-label={`${record.type}, ${record.title}: abrir galeria`}
               >
+                <span className="patrimonio-material-record-preview" aria-hidden="true">
+                  ▧
+                </span>
                 <span>{record.type}</span>
                 <h3>{record.title}</h3>
               </Link>
