@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Boi_Pai_do_Campo.css";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import boiPaiDoCampo from "../../assets/boi_pai_do_campo.png";
 
 const personagens = [
@@ -102,30 +103,7 @@ export default function BoiPaiDoCampoPage() {
         </div>
       </main>
 
-      <footer className="manifestation-footer">
-        <div className="manifestation-footer-brand">
-          <strong>O Patrimônio</strong>
-          <p>
-            Cultura e memória de Limoeiro do Norte reunidas em um portal feito para
-            conhecer, preservar e compartilhar.
-          </p>
-        </div>
-
-        <div>
-          <span className="footer-title">Atalhos</span>
-          <p>Manifestações · Galeria · Acervo · Sobre</p>
-        </div>
-
-        <div>
-          <span className="footer-title">Contato</span>
-          <p>[E-mail do projeto]</p>
-        </div>
-
-        <div className="manifestation-footer-bottom">
-          <span>© O Patrimônio · projeto de portal cultural</span>
-          <span>Limoeiro do Norte · Ceará</span>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
